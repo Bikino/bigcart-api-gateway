@@ -1,0 +1,24 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: api-gateway-service
+
+zuul:
+  routes:
+    products-service:
+      url: http://localhost:8001
+#    venders-service:
+#      url: http://localhost:8001
+    orders-service:
+      url: http://localhost:8000
+    notifications-service:
+      url: http://localhost:8006
+#    auth-service:
+#      url: http://localhost:8001
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
