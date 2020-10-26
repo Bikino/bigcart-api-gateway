@@ -7,11 +7,11 @@ spring:
 
 zuul:
   routes:
-    products-service:
+    product-service:
       url: http://localhost:8001
 #    venders-service:
 #      url: http://localhost:8001
-    orders-service:
+    order-service:
       url: http://localhost:8000
     notifications-service:
       url: http://localhost:8006
