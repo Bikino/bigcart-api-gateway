@@ -40,12 +40,10 @@ zuul:
     products-service:
       url: http://localhost:8001
     orders-service:
-
       url: http://localhost:8000
     notifications-service:
       url: http://localhost:8006
-    auth-service:
-      url: http://localhost:8001
+
 management:
   endpoints:
     web:
