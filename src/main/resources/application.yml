@@ -34,11 +34,13 @@ logging:
 # -------------------------Zuul----------------------------
 zuul:
   routes:
+
     UserManagement-Service:
       url: http://localhost:9988
     products-service:
       url: http://localhost:8001
     orders-service:
+
       url: http://localhost:8000
     notifications-service:
       url: http://localhost:8006
