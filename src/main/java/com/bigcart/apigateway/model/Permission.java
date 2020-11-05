@@ -1,10 +1,14 @@
 package com.bigcart.apigateway.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name = "permission")
 @Data
