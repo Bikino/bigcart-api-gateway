@@ -49,8 +49,4 @@ public class AuthorizationServerConfiguration implements AuthorizationServerConf
         endpoints.authenticationManager(authenticationManager);
     }
 
-//    @Override
-//    public void configure(ResourceServerSecurityConfigurer config) throws Exception {
-//        config.resourceId(null).tokenServices(jdbcTokenStore().zzz);
-//    }
 }
